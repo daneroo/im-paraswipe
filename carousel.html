@@ -76,11 +76,28 @@
             text-shadow: -1px -1px 0 rgba(0,0,0,.2);
         }
 
+        #carousel li {
+          background: url(background.jpg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+
         #carousel li.pane1 { background: #42d692; }
         #carousel li.pane2 { background: #4986e7; }
         #carousel li.pane3 { background: #d06b64; }
         #carousel li.pane4 { background: #cd74e6; }
         #carousel li.pane5 { background: #9fe1e7; }
+
+        #carousel li.pane1 { background-color:rgba(240,0,0,.5);opacity: 0.5; }
+        #carousel li.pane2 { background: #4986e7; }
+        #carousel li.pane3 { background: #d06b64; }
+        #carousel li.pane4 { background: #cd74e6; }
+        #carousel li.pane5 { background: #9fe1e7; }
+
+
+
 
     </style>
 </head>
@@ -91,7 +108,7 @@
 
     <div id="carousel">
         <ul>
-            <li class="pane1"><h2>Swipe...</h2></li>
+            <li class="pane1"><div class="image"><h2>Swipe...</h2></div</li>
             <li class="pane2"><h2>...or drag...</h2></li>
             <li class="pane3"><h2>...or swipe...</h2></li>
             <li class="pane4"><h2>..or drag...</h2></li>
