@@ -11,4 +11,4 @@ To run
 Photo: [http://www.flickr.com/photos/sulbalcon/6645353073/sizes/l/in/photostream/](http://www.flickr.com/photos/sulbalcon/6645353073/sizes/l/in/photostream/)
 
 ## References
-[hammer.js](http://eightmedia.github.io/hammer.js/)
+[hammer.js](http://eightmedia.github.io/hammer.js/), especially the [Carousel example](http://eightmedia.github.io/hammer.js/examples/carousel.html)
